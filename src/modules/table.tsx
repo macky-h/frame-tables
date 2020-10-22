@@ -1,12 +1,13 @@
 import React from 'react'
 import './../assets/table.scss'
 
+import SectionTitle from './../components/title'
 
-const Table = () => {
+const Table: React.FC = () => {
   return(
     <>
       <section className='ft-table'>
-        <h2 className='ft-table-title'>Frame Tables</h2>
+      <SectionTitle text='Frame Tables' />
         <table className='ft-table-body'>
           <thead>
             <tr>

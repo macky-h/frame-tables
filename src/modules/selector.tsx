@@ -1,10 +1,16 @@
 import React from 'react'
+import './../assets/selector.scss'
 
-import About from './about'
-import Selector from './selector'
-import Table from './table'
+import SectionTitle from './../components/title'
+import SelectOptions from './../components/options'
 
-const characters = [
+type SelectCharacter = {
+  name: string,
+  fullname: string,
+  param: string
+}[]
+
+const characters: SelectCharacter = [
   {
     name: 'ソル',
     fullname: 'ソル=バッドガイ',
@@ -132,16 +138,23 @@ const characters = [
   }
 ]
 
-const Container: React.FC = () => {
+const Selector = () => {
+  const listDom: Array<any> = characters.map((item: any) => 
+    <SelectOptions name={item.name} param={item.param} />
+  )
   return(
     <>
-      <div className='ft-container'>
-        <About />
-        <Selector itemList={characters} />
-        <Table />
-      </div>
+      <section className='ft-selector'>
+        <SectionTitle text='Frame Tables' />
+        <div className='ft-selector-box'>
+          <h3 className='ft-selector-subtitle'>キャラクター選択：</h3>
+          <div className='ft-selector-content'>
+            <select>{listDom}</select>
+          </div>
+        </div>
+      </section>
     </>
   )
 }
 
-export default Container
+export default Selector
