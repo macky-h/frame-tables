@@ -1,0 +1,14 @@
+.ft {
+  &-about {
+    padding-bottom: .7rem;
+    border-bottom: solid 1px #EDEDED;
+    &-title {
+      font-size: 18px;
+      margin-bottom: .5rem;
+    }
+    &-text {
+      color: #5F5F5F;
+      font-size: 11px;
+    }
+  }
+}

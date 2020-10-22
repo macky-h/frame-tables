@@ -1,0 +1,31 @@
+.ft {
+  &-selector {
+    border-bottom: solid 1px #EDEDED;
+    padding: 1rem 0;
+    &-title {
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    &-box {
+      display: flex;
+      align-items: center;
+    }
+    &-subtitle {
+      font-size: 14px;
+      font-weight: bold;
+      flex-basis: 40%;
+    }
+    &-content {
+      flex-basis: 60%;
+       > select {
+        width: 100%;
+        appearance: none;
+        border-radius: 3px;
+        font-size: 14px;
+        padding: .7rem;
+        background: #F4F4F4;
+        border: solid 1px #E3E3E3;
+      }
+    }
+  }
+}
