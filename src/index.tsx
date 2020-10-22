@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
 import { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
 import Header from './modules/header'
-import Container from './containers/container'
 import './assets/index.scss'
+import { Top } from './components/pages/Top'
 
 // styleのリセット
 const GlobalStyle = createGlobalStyle`
@@ -12,18 +12,16 @@ const GlobalStyle = createGlobalStyle`
 `
 
 const App = () => {
-  return(
+  return (
     <>
       <GlobalStyle />
       <Header />
-      <main className='ft-container'>
-        <Container />
+      <main className="ft-container">
+        <Top />
       </main>
     </>
   )
 }
 
-ReactDOM.render(
-   <App />,
-   document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'))
+

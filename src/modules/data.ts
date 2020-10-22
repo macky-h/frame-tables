@@ -1,160 +1,127 @@
-import React from 'react'
-import './../assets/selector.scss'
-
-import SectionTitle from './../components/title'
-import SelectOptions from './../components/options'
-
-type SelectCharacter = {
-  name: string,
-  fullname: string,
-  param: string
-}[]
-
-const characters: SelectCharacter = [
+export const characterList = [
   {
     name: 'ソル',
     fullname: 'ソル=バッドガイ',
-    param: 'sol'
+    value: 'sol',
   },
   {
     name: 'カイ',
     fullname: 'カイ=キスク',
-    param: 'kay'
+    value: 'kay',
   },
   {
     name: 'メイ',
     fullname: 'メイ',
-    param: 'may'
+    value: 'may',
   },
   {
     name: 'ミリア',
     fullname: 'ミリア=レイジ',
-    param: 'millia'
+    value: 'millia',
   },
   {
     name: 'ファウスト',
     fullname: 'ファウスト',
-    param: 'faust'
+    value: 'faust',
   },
   {
     name: 'ザトー',
     fullname: 'ザトーONE',
-    param: 'zato'
+    value: 'zato',
   },
   {
     name: 'チップ',
     fullname: 'チップ=ザナフ',
-    param: 'chipp'
+    value: 'chipp',
   },
   {
     name: 'イノ',
     fullname: 'イノ',
-    param: 'ino'
+    value: 'ino',
   },
   {
     name: 'アクセル',
     fullname: 'アクセル=ロウ',
-    param: 'axl'
+    value: 'axl',
   },
   {
     name: 'ヴェノム',
     fullname: 'ヴェノム',
-    param: 'venom'
+    value: 'venom',
   },
   {
     name: 'ポチョムキン',
     fullname: 'ポチョムキン',
-    param: 'potemkin'
+    value: 'potemkin',
   },
   {
     name: 'スレイヤー',
     fullname: 'スレイヤー',
-    param: 'slayer'
+    value: 'slayer',
   },
   {
     name: 'シン',
     fullname: 'シン=キスク',
-    param: 'sin'
+    value: 'sin',
   },
   {
     name: 'ラムレザル',
     fullname: 'ラムレザル=ヴァレンタイン',
-    param: 'ramlethal'
+    value: 'ramlethal',
   },
   {
     name: 'エルフェルト',
     fullname: 'エルフェルト=ヴァレンタイン',
-    param: 'elphelt'
+    value: 'elphelt',
   },
   {
     name: 'レオ',
     fullname: 'レオ=ホワイトファング',
-    param: 'leo'
+    value: 'leo',
   },
   {
     name: '紗夢',
     fullname: '蔵土縁 紗夢',
-    param: 'jam'
+    value: 'jam',
   },
   {
     name: '梅喧',
     fullname: '梅喧',
-    param: 'johnny'
+    value: 'johnny',
   },
   {
     name: 'ジョニー',
     fullname: 'ジョニー',
-    param: 'baiken'
+    value: 'baiken',
   },
   {
     name: 'ディズィー',
     fullname: 'ディズィー',
-    param: 'dizzy'
+    value: 'dizzy',
   },
   {
     name: 'ベッドマン',
     fullname: 'ベッドマン',
-    param: 'bedman'
+    value: 'bedman',
   },
   {
     name: 'ジャック・O',
     fullname: 'ジャック・O',
-    param: 'jack'
+    value: 'jack',
   },
   {
     name: 'レイヴン',
     fullname: 'レイヴン',
-    param: 'raven'
+    value: 'raven',
   },
   {
     name: 'アンサー',
     fullname: 'アンサー',
-    param: 'answer'
+    value: 'answer',
   },
   {
     name: 'クム',
     fullname: 'クム=へヒョン',
-    param: 'kum'
-  }
-]
-
-const Selector = () => {
-  const listDom: Array<any> = characters.map((item: any) => 
-    <SelectOptions name={item.name} param={item.param} />
-  )
-  return(
-    <>
-      <section className='ft-selector'>
-        <SectionTitle text='Frame Tables' />
-        <div className='ft-selector-box'>
-          <h3 className='ft-selector-subtitle'>キャラクター選択：</h3>
-          <div className='ft-selector-content'>
-            <select>{listDom}</select>
-          </div>
-        </div>
-      </section>
-    </>
-  )
-}
-
-export default Selector
+    value: 'kum',
+  },
+] as const
