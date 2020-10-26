@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { createGlobalStyle } from 'styled-components'
 import reset from 'styled-reset'
-import Header from './modules/header'
 import './assets/index.scss'
+import logo from './assets/logo.png'
+import { Header } from './components/molecules/Header/'
 import { Top } from './components/pages/Top'
 
 // styleのリセット
@@ -15,7 +16,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      <Header image={logo} alt='GuiltyGearXrd Rev2' />
       <main className="ft-container">
         <Top />
       </main>

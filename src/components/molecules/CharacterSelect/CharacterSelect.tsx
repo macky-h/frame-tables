@@ -12,7 +12,7 @@ export const CharacterSelect = () => {
 
   return (
     <section className="ft-selector">
-      <SectionTitle text="Frame Tables" />
+      <SectionTitle text="Characters" />
       <div className="ft-selector-box">
         <h3 className="ft-selector-subtitle">キャラクター選択：</h3>
         <div className="ft-selector-content">
