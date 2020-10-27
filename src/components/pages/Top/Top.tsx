@@ -2,6 +2,8 @@ import React from 'react'
 import { CharacterSelect } from '../../molecules/CharacterSelect'
 import { About } from '../../molecules/About'
 import { FrameTables } from '../../molecules/FrameTables'
+import { PostScript } from '../../molecules/PostScript'
+import { Movie } from '../../molecules/Movie'
 
 export const Top: React.FC = () => {
   return (
@@ -10,6 +12,8 @@ export const Top: React.FC = () => {
         <About title='GGXrd Rev2 Frame Tables' text='格闘ゲームGuiltyGear Xrd のレスポンシブ対応フレーム表です' />
         <CharacterSelect />
         <FrameTables />
+        <PostScript />
+        <Movie />
       </div>
     </>
   )

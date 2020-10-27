@@ -9,7 +9,9 @@ export const Table: React.FC<TableTypeProps> = ({list}) => {
   return(
     <table className="ft-table-body">
       <thead>
-        {list.map(title => <CellTh tech={title} />)}
+        <tr>
+          {list.map((title) => <CellTh key={`table-${title}`} tech={title} />)}
+        </tr>
       </thead>
     </table>
   )

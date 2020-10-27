@@ -7,7 +7,7 @@ type TechTypeProps = {
 export const CellTh: React.FC<TechTypeProps> = ({tech}) => {
   return(
     <>
-      <th><p className="ft-table-item">{tech}</p></th>
+      <th><span className="ft-table-item">{tech}</span></th>
     </>
   )
 }
