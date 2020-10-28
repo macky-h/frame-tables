@@ -12,8 +12,8 @@ export const Top: React.FC = () => {
         <About title='GGXrd Rev2 Frame Tables' text='格闘ゲームGuiltyGear Xrd のレスポンシブ対応フレーム表です' />
         <CharacterSelect />
         <FrameTables />
-        <PostScript />
         <Movie />
+        <PostScript />
       </div>
     </>
   )
