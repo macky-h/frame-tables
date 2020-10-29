@@ -1,6 +1,6 @@
 import React from 'react'
-import Axios from 'axios'
 import { Option } from './Options'
+import { GetJson } from './../../../containers/GetJson'
 
 type Character = {
   name: string
@@ -11,13 +11,8 @@ type SelectBoxProps = {
   list: Character[]
 }
 
-const HandleChange = () => {
-  console.log('AAA')
-  Axios.get('./src/data/sol.json')
-}
-
 export const SelectBox: React.FC<SelectBoxProps> = ({ list }) => (
-  <select onChange={HandleChange}>
+  <select onChange={GetJson}>
     {list.map(({ name, value }) => (
       <Option key={`character-${value}-${name}`} name={name} value={value} />
     ))}
