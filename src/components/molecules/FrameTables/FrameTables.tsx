@@ -12,7 +12,7 @@ type Tech = {
   advantage: string
 }
 
-export type FrameTablesProps = {
+type FrameTablesProps = {
   titleList: string[]
   techList: Tech[]
 }

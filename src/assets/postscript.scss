@@ -1,6 +1,9 @@
 .ft {
-  &-afterword {
+  &-postscript {
     border-bottom: solid 1px #EDEDED;
     padding: 1rem 0;
+    &-tag {
+      margin: .5rem;
+    }
   }
 }
