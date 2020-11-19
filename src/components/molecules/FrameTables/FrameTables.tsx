@@ -1,23 +1,36 @@
 import React from 'react'
 import '../../../assets/table.scss'
 import { SectionTitle } from './../../atoms/SectionTitle'
-import { Cell } from './../../atoms/Cell'
+import { CellTh } from './../../atoms/Cell'
+import { Column } from './../../atoms/Column'
 
-const TitleList = ['技名', '発生', '硬直', '無敵']
+type Tech = {
+  name: string,
+  occur: string,
+  rigid: string,
+  invincible: string,
+  advantage: string
+}
 
-export const FrameTables: React.FC = () => {
-  return(
+export type FrameTablesProps = {
+  titleList: string[]
+  techList: Tech[]
+}
+
+export const FrameTables: React.FC<FrameTablesProps> = ({ titleList, techList }) => (
     <section className="ft-table">
       <SectionTitle text="Frame Tables" />
-      <table className="ft-table-body">
-        <thead>
-          <tr>
-            {TitleList.map((title) => <Cell key={`table-${title}`} tech={title} />)}
-          </tr>
-        </thead>
-        <tbody>
-        </tbody>
-      </table>
+      <div className="ft-table-wrapper">
+        <table className="ft-table-body">
+          <thead>
+            <tr>
+              {titleList.map((title) => <CellTh key={`table-${title}`} tech={title} />)}
+            </tr>
+          </thead>
+          <tbody>
+            {techList.map((tech, index) => <Column key={`table-${index}`} dataColumn={tech} />)}
+          </tbody>
+        </table>
+      </div>
     </section>
   )
-}

@@ -6,21 +6,45 @@
       font-weight: bold;
       margin-bottom: 1rem;
     }
+    &-wrapper {
+      overflow-y: scroll;
+      height: 300px;
+      border-bottom: solid 1px #E3E3E3;
+      border-top: solid 1px #E3E3E3;
+    }
     &-body {
       width: 100%;
-      border-top: solid 1px #E3E3E3;
       border-right: solid 1px #E3E3E3;
       border-left: solid 1px #E3E3E3;
       th {
-        padding: .7rem 0;
-        border-bottom: solid 1px #E3E3E3;
         background: #F4F4F4;
+        position: sticky;
+        top: -1px;
+        min-width: 40px;
+      }
+      th, td {
+        vertical-align: middle;
+      }
+      tr {
+        border-bottom: solid 1px #E3E3E3;
+        &:last-of-type {
+          border-bottom: none;
+        }
       }
     }
-    &-item {
+    &-item, &-text {
       text-align: left;
+      padding: .7rem .3rem;
       font-size: 12px;
+      line-height: 1.2;
+    }
+    &-item {
+      display: block;
       font-weight: bold;
+    }
+    &-advantage {
+      font-weight: bold;
+      color: red;
     }
   }
 }

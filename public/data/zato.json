@@ -2,91 +2,91 @@
   "tech": [
     {
       "name": "5P",
-      "occur": "7",
+      "occur": "5",
       "rigid": "-1",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "5K",
-      "occur": "5",
-      "rigid": "-10",
+      "occur": "8",
+      "rigid": "-2",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "近S",
-      "occur": "7",
-      "rigid": "-6",
+      "occur": "9",
+      "rigid": "±0",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "遠S",
       "occur": "7",
-      "rigid": "-6",
+      "rigid": "-9",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "5HS",
-      "occur": "6",
-      "rigid": "-4",
-      "invincible": "-",
-      "advantage": "0"
-    },
-    {
-      "name": "2P",
-      "occur": "5",
-      "rigid": "+2",
+      "occur": "13",
+      "rigid": "+1",
       "invincible": "-",
       "advantage": "1"
     },
     {
+      "name": "2P",
+      "occur": "6",
+      "rigid": "-2",
+      "invincible": "-",
+      "advantage": "0"
+    },
+    {
       "name": "2K",
-      "occur": "5",
-      "rigid": "+1",
+      "occur": "7",
+      "rigid": "+3",
       "invincible": "-",
       "advantage": "1"
     },
     {
       "name": "2S",
       "occur": "9",
-      "rigid": "-3",
+      "rigid": "-6",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "2HS",
       "occur": "11",
-      "rigid": "-2",
+      "rigid": "-6",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "JP",
-      "occur": "5",
+      "occur": "6",
       "rigid": "-",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "JK",
-      "occur": "4",
+      "occur": "7",
       "rigid": "-",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "JS",
-      "occur": "10",
+      "occur": "7",
       "rigid": "-",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "JHS",
-      "occur": "8",
+      "occur": "11",
       "rigid": "-",
       "invincible": "-",
       "advantage": "0"
@@ -100,156 +100,163 @@
     },
     {
       "name": "6P",
-      "occur": "10",
-      "rigid": "-13",
-      "invincible": "1~14上",
+      "occur": "13",
+      "rigid": "-2",
+      "invincible": "1~16上",
       "advantage": "0"
     },
     {
       "name": "6K",
-      "occur": "19",
-      "rigid": "+1",
-      "invincible": "5~20下,21~22足下",
-      "advantage": "1"
+      "occur": "23",
+      "rigid": "-5",
+      "invincible": "-",
+      "advantage": "0"
     },
     {
       "name": "6HS",
-      "occur": "15",
+      "occur": "13",
       "rigid": "-6",
       "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "足払い",
-      "occur": "13",
-      "rigid": "-1",
-      "invincible": "10~21足下",
+      "occur": "9",
+      "rigid": "-7",
+      "invincible": "-",
       "advantage": "0"
     },
     {
       "name": "ダスト",
-      "occur": "28",
-      "rigid": "-10",
-      "invincible": "9~14低,15~17膝上",
+      "occur": "25",
+      "rigid": "-13",
+      "invincible": "1~51足",
       "advantage": "0"
     },
     {
       "name": "DAA",
-      "occur": "10",
-      "rigid": "-12",
-      "invincible": "1~12無, 13~29投",
-      "advantage": "0"
-    },
-    {
-      "name": "バッドムーン",
-      "occur": "11",
-      "rigid": "-17",
-      "invincible": "公式参照",
-      "advantage": "0"
-    },
-    {
-      "name": "タンデム(S)",
-      "occur": "11",
-      "rigid": "-1",
-      "invincible": "-",
-      "advantage": "0"
-    },
-    {
-      "name": "タンデム(HS)",
-      "occur": "60",
-      "rigid": "-",
-      "invincible": "-",
-      "advantage": "0"
-    },
-    {
-      "name": "ラストシェイカー",
-      "occur": "10",
-      "rigid": "+6",
-      "invincible": "-",
-      "advantage": "1"
-    },
-    {
-      "name": "ラストシェイカー(連)",
-      "occur": "10",
-      "rigid": "+6",
-      "invincible": "-",
-      "advantage": "1"
-    },
-    {
-      "name": "アイアンセイバー",
-      "occur": "17",
+      "occur": "13",
       "rigid": "-13",
-      "invincible": "7~空",
+      "invincible": "1~21無, 22~36投",
       "advantage": "0"
     },
     {
-      "name": "前転",
-      "occur": "-",
-      "rigid": "-",
-      "invincible": "4~11超低,16~24膝上",
-      "advantage": "0"
-    },
-    {
-      "name": "再前転",
-      "occur": "-",
-      "rigid": "-",
-      "invincible": "4~11超低,16~18膝上",
-      "advantage": "0"
-    },
-    {
-      "name": "ラストシェイカー(派)",
-      "occur": "17",
-      "rigid": "+6",
-      "invincible": "-",
-      "advantage": "1"
-    },
-    {
-      "name": "ディジタリス",
-      "occur": "7",
+      "name": "エディ(小)",
+      "occur": "21",
       "rigid": "-11",
       "invincible": "-",
       "advantage": "0"
     },
     {
-      "name": "ダスト(派)",
-      "occur": "25",
-      "rigid": "-10",
-      "invincible": "7~11低,12~14膝上",
-      "advantage": "0"
-    },
-    {
-      "name": "サイレントフォース",
+      "name": "ごーいんぐ",
       "occur": "11",
       "rigid": "-",
       "invincible": "-",
       "advantage": "0"
     },
     {
-      "name": "ガーデン",
-      "occur": "77",
+      "name": "モノ投げ",
+      "occur": "13",
       "rigid": "-",
       "invincible": "-",
       "advantage": "0"
     },
     {
-      "name": "ウィンガー",
-      "occur": "5+1",
-      "rigid": "-22",
-      "invincible": "1~7無,8~空&上",
+      "name": "ドア(前)",
+      "occur": "63",
+      "rigid": "-13",
+      "invincible": "21~42打,43~52無,53~57(頭以外無),52~89投",
       "advantage": "0"
     },
     {
-      "name": "エメラルドレイン",
-      "occur": "4+1",
-      "rigid": "-3",
-      "invincible": "4打",
+      "name": "ドア(後)",
+      "occur": "63",
+      "rigid": "-13",
+      "invincible": "21~42打,43~52無,53~57(頭以外無),52~89投",
       "advantage": "0"
     },
     {
-      "name": "クローミングローズ",
-      "occur": "-",
+      "name": "ドア(上)",
+      "occur": "",
       "rigid": "-",
-      "invincible": "4~10足下",
+      "invincible": "21~42打,43~47無",
+      "advantage": "0"
+    },
+    {
+      "name": "槍点",
+      "occur": "17",
+      "rigid": "+3",
+      "invincible": "-",
+      "advantage": "1"
+    },
+    {
+      "name": "味見",
+      "occur": "10",
+      "rigid": "+3",
+      "invincible": "-",
+      "advantage": "0"
+    },
+    {
+      "name": "ふらわー",
+      "occur": "7",
+      "rigid": "-",
+      "invincible": "1~6打",
+      "advantage": "0"
+    },
+    {
+      "name": "ふらわー(タメ)",
+      "occur": "24",
+      "rigid": "-",
+      "invincible": "24~28無",
+      "advantage": "0"
+    },
+    {
+      "name": "華",
+      "occur": "16",
+      "rigid": "+5",
+      "invincible": "1~8打",
+      "advantage": "1"
+    },
+    {
+      "name": "華(タメ)",
+      "occur": "32",
+      "rigid": "+2",
+      "invincible": "-",
+      "advantage": "1"
+    },
+    {
+      "name": "派生ごーいんぐ",
+      "occur": "13",
+      "rigid": "-23",
+      "invincible": "-",
+      "advantage": "0"
+    },
+    {
+      "name": "派生モノ投げ",
+      "occur": "9",
+      "rigid": "-",
+      "invincible": "-",
+      "advantage": "0"
+    },
+    {
+      "name": "医者コプター",
+      "occur": "16",
+      "rigid": "-",
+      "invincible": "-",
+      "advantage": "0"
+    },
+    {
+      "name": "愛",
+      "occur": "21",
+      "rigid": "-",
+      "invincible": "-",
+      "advantage": "0"
+    },
+    {
+      "name": "絶命拳",
+      "occur": "11+1",
+      "rigid": "-46",
+      "invincible": "1~15無,16~17打",
       "advantage": "0"
     }
   ]

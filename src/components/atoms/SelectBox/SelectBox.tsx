@@ -1,6 +1,5 @@
 import React from 'react'
 import { Option } from './Options'
-import { GetJson } from './../../../containers/GetJson'
 
 type Character = {
   name: string
@@ -9,12 +8,15 @@ type Character = {
 
 type SelectBoxProps = {
   list: Character[]
+  selectHandler: (value: string) => void
 }
 
-export const SelectBox: React.FC<SelectBoxProps> = ({ list }) => (
-  <select onChange={GetJson}>
-    {list.map(({ name, value }) => (
-      <Option key={`character-${value}-${name}`} name={name} value={value} />
-    ))}
-  </select>
-)
+export const SelectBox: React.FC<SelectBoxProps> = ({ list, selectHandler }) => {
+  return (
+    <select onChange={e => {selectHandler(e.target.value)}}>
+      {list.map(({ name, value }) => (
+        <Option key={`character-${value}-${name}`} name={name} value={value} />
+      ))}
+    </select>
+  )
+}

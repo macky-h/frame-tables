@@ -124,4 +124,4 @@ export const characterList = [
     fullname: 'クム=へヒョン',
     value: 'kum',
   },
-] as const
+]
