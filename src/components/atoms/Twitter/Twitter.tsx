@@ -7,8 +7,7 @@ export const Twitter = () => (
       tweetId='1167334358727847936'
       options={{
         height: '300',
-        theme: 'dark',
-        chrome: 'nofooternoheader'
+        theme: 'dark'
       }}
     />
     <div className='ft-postscript-box'>
